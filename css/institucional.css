@@ -40,18 +40,22 @@
 .institucional__video {
     width: 100%;
 }
-@media screen and (min-width: 1024px) {
-    .institucional__contenido {
+@media (min-width: 768px) {
+    .institucional__email{
+        display: inline-block;
+    }
+    .institucional__video{
+        width: 100%;
+    }
+}
+@media (min-width: 1024px) {
+    .institucional__contenido{
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         text-align: left;
     }
-    .institucional__video {
-        align-self: flex-end;
-        max-width: 375px;
-    }
-    .institucional__contacto-email {
+    .institucional__email{
         display: block;
     }
 }

@@ -23,8 +23,8 @@
     margin-bottom: .7rem;
     margin-left: .7rem;
 }
-@media screen and (min-width: 1024px) {
-    .head {
+@media (min-width: 1024) {
+    .head{
         flex-direction: row;
         justify-content: space-between;
         border: none;

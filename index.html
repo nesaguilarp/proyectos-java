@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/institucional.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/sobre-nosotros.css">
 </head>
 <body>
     <header class="head container">
@@ -72,29 +73,32 @@
                 </li>
             </ul>
         </section>
-        <section class="sobre_nosotros container">
-            <div class="sobre_nosotros__contenido">
-                <h2 class="sobre_nosotros__titulo">Sobre nosotros</h2>
-                <p class="sobre_nosotros__texto">
-                    ¡Creamos aplicaciones personalizados para todas las personas!
-                </p>
-                <p class="sobre_nosotros__texto">
-                    La manutención de una aplicación no puede ser un custo extra para el cliente. 
-                    En Apeperia firmas nuestro servicio la manutención ya se incluye en el servicio. 
-                    De esa manera no te preocupes con la actualización, es por cuenta de nosotros.
-                </p>
-                <p class="sobre_nosotros__texto sobre-nosotros__texto--destacado sobre-nosotros__texto--division">
-                    ¡Tenemos un equipo especializado y exclusivo para proyectos increíbles!
-                </p>
-                <ul class="sobre_nosotros__plataformas">
-                    <li><img src="img/android.png" alt="Ícono del Android"></li>
-                    <li><img src="img/blackberry.png" alt="Ícono del Blackberry"></li>
-                    <li><img src="img/apple.png" alt="Ícono de la Apple"></li>
-                    <li><img src="img/windowsphone.png" alt="Ícono del Windows"></li>
-                </ul>
-                <p class="sobre_nosotros__texto">Desarrollamos aplicaciones para todas plataformas</p>
-            </div>
-        </section>
+        <div class="sobre__nosotros-seccion">
+            <section class="sobre_nosotros container">
+                <div class="sobre_nosotros__contenido">
+                    <h2 class="sobre_nosotros__titulo">Sobre nosotros</h2>
+                    <p class="sobre_nosotros__texto">
+                        ¡Creamos aplicaciones personalizados para todas las personas!
+                    </p>
+                    <p class="sobre_nosotros__texto">
+                        La manutención de una aplicación no puede ser un custo extra para el cliente. 
+                        En Apeperia firmas nuestro servicio la manutención ya se incluye en el servicio. 
+                        De esa manera no te preocupes con la actualización, es por cuenta de nosotros.
+                    </p>
+                    <p class="sobre_nosotros__texto sobre-nosotros__texto--destacado sobre-nosotros__texto--division">
+                        ¡Tenemos un equipo especializado y exclusivo para proyectos increíbles!
+                    </p>
+                    <ul class="sobre_nosotros__plataformas">
+                        <li><img src="img/android.png" alt="Ícono del Android"></li>
+                        <li><img src="img/blackberry.png" alt="Ícono del Blackberry"></li>
+                        <li><img src="img/apple.png" alt="Ícono de la Apple"></li>
+                        <li><img src="img/windowsphone.png" alt="Ícono del Windows"></li>
+                    </ul>
+                    <p class="sobre_nosotros__texto">Desarrollamos aplicaciones para todas plataformas</p>
+                </div>
+                <img src="img/sobre-apeperia.png" alt="Imagen nosotros" class="sobre_nosotros__imagen">
+            </section>
+        </div>
         <section class="planes container">
             <h2 class="planes__titulo">Planes</h2>
             <ul class="planes__tarjetas">
@@ -137,18 +141,22 @@
         </section>
         <section class="institucional container">
             <h2 class="institucional__titulo">Institucional</h2>
-            <p class="institucional__descripcion">Un poco más sobre Apeperia</p>
-            <address class="institucional__direccion">
-                Calle Vergueiro, 3185 </br>
-                Villa Mariana, São Paulo
-                <article class="institucional__contacto">
-                    <p>
-                        <a href="tel:+551155712751" class="institucional__telefono">Tel:+551155712751</a>
-                        <a href="email:contato@apeperia.com" class="institucional__email">contato@apeperia.com</a>
-                    </p>
-                </article>
-            </address>
-            <video src="img/formacion-java.mp4" class="Institucional__video" controls></video>
+            <div class="institucional__contenido">
+                <div class="institucional_informacion">
+                    <p class="institucional__descripcion">Un poco más sobre Apeperia</p>
+                    <address class="institucional__direccion">
+                        Calle Vergueiro, 3185 </br>
+                        Villa Mariana, São Paulo
+                        <article class="institucional__contacto">
+                            <p>
+                                <a href="tel:+551155712751" class="institucional__telefono">Tel:+551155712751</a>
+                                <a href="email:contato@apeperia.com" class="institucional__email">contato@apeperia.com</a>
+                            </p>
+                        </article>
+                    </address>
+                </div>
+                <iframe class="Institucional__video" width="560" height="315" src="https://www.youtube.com/embed/2SBnpnDNpYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </section>
     </main>
     <!-- footer.footer.container>img.footer__logo+(ul.footer__social>
